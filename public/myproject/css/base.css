@@ -19,7 +19,7 @@ a {
 }
 /* 头部样式 */
 .header {
-  background-color: #006699;
+  background-color: #3a373c;
 }
 .header .mui-title {
   color: #fff;
@@ -29,7 +29,7 @@ a {
 }
 /*底部样式*/
 .footer {
-  background-color: #006699;
+  background-color: #3a373c;
 }
 .footer .mui-tab-item span {
   color: #fff;
