@@ -1,0 +1,89 @@
+/*导航链接*/
+.nav-links {
+  width: 100%;
+  padding: 10px;
+}
+.nav-links a {
+  float: left;
+  width: 33.3%;
+}
+.nav-links a img {
+  width: 100%;
+  display: block;
+}
+/*品牌专区*/
+.brand {
+  padding: 0 10px;
+}
+.brand > img {
+  width: 100%;
+}
+.brand ul {
+  padding: 10px 0;
+}
+.brand ul li {
+  float: left;
+  width: 25%;
+}
+.brand ul li a {
+  display: block;
+}
+.brand ul li a > img {
+  width: 100%;
+}
+/*运动生活专区*/
+.sports {
+  padding: 0 10px;
+}
+.sports > img {
+  width: 100%;
+  margin: 10px 0;
+}
+.sports ul {
+  overflow: hidden;
+  padding: 0;
+}
+.sports ul li {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+.sports ul li a {
+  display: block;
+  box-shadow: 0 0 5px #ccc;
+  padding: 5px;
+}
+.sports ul li a img {
+  width: 100%;
+}
+.sports ul li a .name {
+  text-align: center;
+  padding: 5px 0;
+  line-height: 18px;
+  color: #8f8f94;
+  font-size: 14px;
+  height: 44px;
+}
+.sports ul li a .price {
+  text-align: center;
+}
+.sports ul li a .price span:first-child {
+  color: red;
+  padding-right: 2px;
+}
+.sports ul li a .price span:last-child {
+  text-decoration: line-through;
+  padding-left: 2px;
+}
+.sports ul li a .buy-now {
+  display: block;
+  width: 80px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  background: #006699;
+  color: #FFF;
+  font-size: 14px;
+  border-radius: 4px;
+  margin: 0 auto 5px auto;
+}

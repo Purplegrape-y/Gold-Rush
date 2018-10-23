@@ -1,0 +1,39 @@
+html,
+body,
+div,
+ul,
+ol {
+  padding: 0;
+  margin: 0;
+}
+ol,
+ul {
+  list-style: none;
+}
+a {
+  color: #000;
+  text-decoration: none;
+}
+.mui-content {
+  background-color: #fff;
+}
+/* 头部样式 */
+.header {
+  background-color: #006699;
+}
+.header .mui-title {
+  color: #fff;
+}
+.header .mui-icon-search {
+  color: #fff;
+}
+/*底部样式*/
+.footer {
+  background-color: #006699;
+}
+.footer .mui-tab-item span {
+  color: #fff;
+}
+.footer .mui-active span {
+  color: darkorange;
+}
